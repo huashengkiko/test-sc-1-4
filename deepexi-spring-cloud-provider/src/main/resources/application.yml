@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: deepexi-spring-cloud
+  profiles:
+    active: local
+swagger:
+  base-package: kiko-wangwangwang.controller
+  info:
+    title: deepexi-spring-cloud
+server:
+  error:
+    include-stacktrace: always
+    include-exception: true
+logging:
+  file: 'logs/${spring.application.name}.log'
