@@ -9,15 +9,15 @@
 - **工具版本**: v1.11.0
 - **node版本**: v10.13.0
 - **yeoman版本**: v2.0.6
-- **生成时间**: 2019-10-14 09:42:51
+- **生成时间**: 2019-10-14 09:47:59
 - **生成方式**: 命令模式
 - **生成参数**: 
 ```json
-{"groupId":"com.deepexi","artifactId":"deepexi-spring-cloud","basePackage":"kiko-wangwangwang","mavenUrl":"http://nexus.deepexi.top/repository/maven-public/","templateEngine":"none","db":"none","dbPool":"none","orm":"none","discovery":"none","feignCircuit":"hystrix","mq":"none","configservice":"none","authentication":"none","jwtIssue":"deepexi","security":"shiro","cache":"none","apm":"none","swVersion":"6.4.0","demo":false,"mode":"command","cli":"yo generator-deepexi-spring-cloud -c --groupId=com.deepexi --artifactId=deepexi-spring-cloud --basePackage=kiko-wangwangwang --mavenUrl=http://nexus.deepexi.top/repository/maven-public/ --templateEngine=none --db=none --dbPool=none --orm=none --discovery=none --feignCircuit=hystrix --mq=none --configservice=none --authentication=none --jwtIssue=deepexi --security=shiro --cache=none --apm=none --swVersion=6.4.0 --demo=false","version":"1.11.0","basePath":"kiko-wangwangwang","conditions":{"shiro":true},"openfeign":false}
+{"groupId":"com.deepexi","artifactId":"deepexi-spring-cloud-kiko","basePackage":"kiko-wangwangwang","mavenUrl":"http://nexus.deepexi.top/repository/maven-public/","templateEngine":"none","db":"none","dbPool":"none","orm":"none","discovery":"none","feignCircuit":"hystrix","mq":"none","configservice":"none","authentication":"none","jwtIssue":"deepexi","security":"shiro","cache":"none","apm":"none","swVersion":"6.4.0","demo":false,"mode":"command","cli":"yo generator-deepexi-spring-cloud -c --groupId=com.deepexi --artifactId=deepexi-spring-cloud-kiko --basePackage=kiko-wangwangwang --mavenUrl=http://nexus.deepexi.top/repository/maven-public/ --templateEngine=none --db=none --dbPool=none --orm=none --discovery=none --feignCircuit=hystrix --mq=none --configservice=none --authentication=none --jwtIssue=deepexi --security=shiro --cache=none --apm=none --swVersion=6.4.0 --demo=false","version":"1.11.0","basePath":"kiko-wangwangwang","conditions":{"shiro":true},"openfeign":false}
 ```
 - **生成命令**: 
 ```text
-yo generator-deepexi-spring-cloud -c --groupId=com.deepexi --artifactId=deepexi-spring-cloud --basePackage=kiko-wangwangwang --mavenUrl=http://nexus.deepexi.top/repository/maven-public/ --templateEngine=none --db=none --dbPool=none --orm=none --discovery=none --feignCircuit=hystrix --mq=none --configservice=none --authentication=none --jwtIssue=deepexi --security=shiro --cache=none --apm=none --swVersion=6.4.0 --demo=false
+yo generator-deepexi-spring-cloud -c --groupId=com.deepexi --artifactId=deepexi-spring-cloud-kiko --basePackage=kiko-wangwangwang --mavenUrl=http://nexus.deepexi.top/repository/maven-public/ --templateEngine=none --db=none --dbPool=none --orm=none --discovery=none --feignCircuit=hystrix --mq=none --configservice=none --authentication=none --jwtIssue=deepexi --security=shiro --cache=none --apm=none --swVersion=6.4.0 --demo=false
 ```
 
 ## 项目参考

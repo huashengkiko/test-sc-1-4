@@ -4,7 +4,7 @@ WORKDIR /home
 
 
 
-COPY ./deepexi-spring-cloud-provider/target/app.jar /home
+COPY ./deepexi-spring-cloud-kiko-provider/target/app.jar /home
 
 ADD entrypoint.sh /
 

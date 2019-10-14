@@ -21,11 +21,11 @@ sed -i s/{{elk_logstash}}/$elk_logstash/ filebeat.yml
 h2 '准备启动容器'
 
 info '删除已存在的容器'
-docker rm -f fb-deepexi-spring-cloud
+docker rm -f fb-deepexi-spring-cloud-kiko
 
 info '准备启动Docker容器'
 docker run -d \
-    --name fb-deepexi-spring-cloud \
+    --name fb-deepexi-spring-cloud-kiko \
     -v $PWD/filebeat.yml:/usr/share/filebeat/filebeat.yml \
     -v $PWD/logs/:/var/logs/ \
     $img_fb

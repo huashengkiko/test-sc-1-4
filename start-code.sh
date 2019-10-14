@@ -33,7 +33,7 @@ done
 #----------------- 参数提取 end -----------------#
 
 #----------------- 启动逻辑 start -----------------#
-project_name='deepexi-spring-cloud'
+project_name='deepexi-spring-cloud-kiko'
 
 proj_home=$PWD                              # the project root dir
 img_output=$project_name:v$version          # output image tag

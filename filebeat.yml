@@ -8,7 +8,7 @@ filebeat.inputs:
     match: after
   tail_files: true
   fields:
-    app_id: deepexi-spring-cloud
+    app_id: deepexi-spring-cloud-kiko
     pattern_type: java
     env: {{elk_env}}  # 应用部署环境，方便多环境共用elk时区分（根据实际情况也可以考虑去掉这个字段）
 

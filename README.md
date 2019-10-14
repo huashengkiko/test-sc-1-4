@@ -1,4 +1,4 @@
-# deepexi-spring-cloud
+# deepexi-spring-cloud-kiko
 
 [CHANGELOG](./CHANGELOG.md)
 

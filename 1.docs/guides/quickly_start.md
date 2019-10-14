@@ -2,7 +2,7 @@
 
 ## Develop in local
 
-通过IDE运行[StartupApplication](/deepexi-spring-cloud-provider/src/main/java/kiko-wangwangwang/StartupApplication.java)
+通过IDE运行[StartupApplication](/deepexi-spring-cloud-kiko-provider/src/main/java/kiko-wangwangwang/StartupApplication.java)
 
 ### Swagger
 
@@ -21,7 +21,7 @@ $ mvn clean package -DskipTests
 
 ```bash
 $ PROJECT_HOME=$PWD \
-APP_NAME=deepexi-spring-cloud \
+APP_NAME=deepexi-spring-cloud-kiko \
 VERSION=1.0.0 \
 sh build.sh
 ```
@@ -30,7 +30,7 @@ sh build.sh
 
 ```bash
 $ PROJECT_HOME=$PWD \
-IMAGE_NAME=deepexi-spring-cloud:v1.0.0 \
+IMAGE_NAME=deepexi-spring-cloud-kiko:v1.0.0 \
 sh build.sh
 ```
 
@@ -40,7 +40,7 @@ sh build.sh
 
 ```bash
 $ mvn clean package
-$ java -jar ./deepexi-spring-cloud-provider/target/deepexi-spring-cloud-provider-{version}.jar
+$ java -jar ./deepexi-spring-cloud-kiko-provider/target/deepexi-spring-cloud-kiko-provider-{version}.jar
 ```
 
 ### Start via container
